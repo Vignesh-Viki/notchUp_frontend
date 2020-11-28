@@ -207,7 +207,8 @@ class FormPage extends Component {
 <div><Dropdown placeholderClassName='myPlaceholderClassName'  menuClassName='myMenuClassName' className="ddfield" options={this.state.timeOfDate} value ={this.state.time} onChange = {this.handleTime} placeholder="Select an slot" /></div>
 </div>
   <div><button className ='buttonSubmit' onClick={this.handleSubmit}> Submit</button></div>
-  <span style={{ color: 'brown', fontSize: 'calc(13px + 1vmin)'   }}>{this.state.submit}</span>
+
+  <div className ='displayLink' >{this.state.submit}</div>
 
             </div>
             );

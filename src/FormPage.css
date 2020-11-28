@@ -6,9 +6,11 @@
 }
 
 .field {
-  min-width: 16vw;
+  width: 16vw;
+  min-width: 125px;
   height: 20px;
   border-radius: 4px/4px;
+  font-size: smaller;
   position: relative;
   background-color: rgba(255,255,255,0.3);
   transition: 0.3s all;
@@ -44,28 +46,35 @@
   padding: 20px;
   margin: 20px;
 }
-.ddfield {
-    
-    min-width: 16vw;
-    
+.displayLink{
+  color: brown;
+  font-size: calc(13px + 1vmin);
+  overflow-wrap: anywhere;
+}
+
+.ddfield { 
+  width: 16vw;
+  font-size: 20px;
+  min-width: 125px;
   display: inline-block;
   border-radius: 4px/4px;
 }
 .Dropdown-control {
   border: 2px solid black;
-    min-width: 16vw;
+  width: 16vw;
+  min-width: 125px;
+    font-size: smaller;
   display: inline-block;
   height: 20px;
-  width : 160px;
   border-radius: 4px/4px;
   position: relative;
   background-color: rgba(255,255,255,0.3);
-  margin: 5px;
+  margin: 5px 0px;
 }
 .myMenuClassName {
 border: 2px solid black;
-  min-width: 16vw;
-  width: 20px;
+  width: 16vw;
+  min-width: 125px;
   display: contents;
   height: 20px;
   border-radius: 4px/4px;
@@ -87,15 +96,15 @@ display: inline;
 
 .spanfield {
   color: brown;
-  font-size: 13px;
+  font-size: smaller;
   margin-top: -1px;
   margin-bottom: 1px;
 }
 
 .myPlaceholderClassName {
-  font-size: small;
   transition: 0.3s all;
   align-items: left;
+  font-size:smaller;
   opacity: 85%;
   display: flex;
 }
@@ -104,6 +113,7 @@ display: inline;
   border: 1px solid rosybrown;
   background-color: rgb(230, 102, 128);
   z-index:1 ;
+  font-size: small;
   min-width: 16vw;    
   height: 20px;
   border-radius: 4px/4px;
